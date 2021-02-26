@@ -1,0 +1,40 @@
+@import './less/base.less';
+
+body {
+    .flexcolumn();
+
+    header {
+        .flexcolumn();
+
+        nav {
+            .flexrow();
+            background-image: url(../images/block03.png);
+            margin: 1em;
+            width: 95%;
+            a {
+                background-image: url(../images/brick.png);
+                font-size: 20px;
+                font-weight: bold;
+                color: white;
+                text-decoration: none;
+                padding: 5px;
+            }
+        }
+    }
+    .main {
+        .flexcolumn();
+
+        .scene {
+            .flexcolumn();
+
+            .castleTop {
+                background-image: url(../images/walltop.png);
+                padding: 1.03em 65px;
+            }
+            .castleWall {
+                background-image: url(../images/brick.png);
+                padding: 1.04em 65px;
+            }
+        }
+    }
+}

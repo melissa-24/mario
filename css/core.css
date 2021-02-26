@@ -1,0 +1,61 @@
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/block03.png);
+  margin: 1em;
+  width: 95%;
+}
+body header nav a {
+  background-image: url(../images/brick.png);
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+body .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .main .scene {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .main .scene .castleTop {
+  background-image: url(../images/walltop.png);
+  padding: 1.03em 65px;
+}
+body .main .scene .castleWall {
+  background-image: url(../images/brick.png);
+  padding: 1.04em 65px;
+}
