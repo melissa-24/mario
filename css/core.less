@@ -2,6 +2,7 @@
 
 body {
     .flexcolumn();
+    background-color: #f8f8f8;
 
     header {
         .flexcolumn();
@@ -24,8 +25,10 @@ body {
     .main {
         .flexcolumn();
 
-        .scene {
+        .castleScene {
             .flexcolumn();
+            border: 8px double #a64600;
+            padding: 1em 1em 0 1em;
 
             .castleTop {
                 background-image: url(../images/walltop.png);
@@ -33,7 +36,58 @@ body {
             }
             .castleWall {
                 background-image: url(../images/brick.png);
-                padding: 1.04em 65px;
+                padding: 1.03em 65px;
+            }
+            .level {
+                .flexrow();
+
+                .castleTop {
+                    background-image: url(../images/walltop.png);
+                    padding: 1.03em 2em;
+                }
+                .castleWall {
+                    background-image: url(../images/brick.png);
+                    padding: 1.03em 65px;
+                }
+                .door {
+                    background-image: url(../images/door.png);
+                    padding: 2em 1.03em;
+                }
+                .brick {
+                    background-image: url(../images/brick.png);
+                    padding: 2em 56.5px;
+                }
+                .blank2 {
+                    padding: 2em 4em;
+                }
+                .blank {
+                    padding: 2em;
+                }
+                .bush {
+                    background-image: url(../images/bush.png);
+                    padding: 1em 3.1em;
+                    align-self: flex-end;
+                }
+            }
+            .castleWall2 {
+                background-image: url(../images/brick.png);
+                padding: 1.03em 129px;
+            }
+            .floor {
+                .flexrow();
+
+                .floorLeft {
+                    background-image: url(../images/block07.png);
+                    padding: 1.03em;
+                }
+                .floorCenter {
+                    background-image: url(../images/block05.png);
+                    padding: 1.03em 20.7em;
+                }
+                .floorRight {
+                    background-image: url(../images/block06.png);
+                    padding: 1.03em;
+                }
             }
         }
     }

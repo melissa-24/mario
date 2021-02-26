@@ -15,6 +15,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #f8f8f8;
 }
 body header {
   display: flex;
@@ -45,17 +46,74 @@ body .main {
   justify-content: center;
   align-items: center;
 }
-body .main .scene {
+body .main .castleScene {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 8px double #a64600;
+  padding: 1em 1em 0 1em;
 }
-body .main .scene .castleTop {
+body .main .castleScene .castleTop {
   background-image: url(../images/walltop.png);
   padding: 1.03em 65px;
 }
-body .main .scene .castleWall {
+body .main .castleScene .castleWall {
   background-image: url(../images/brick.png);
-  padding: 1.04em 65px;
+  padding: 1.03em 65px;
+}
+body .main .castleScene .level {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body .main .castleScene .level .castleTop {
+  background-image: url(../images/walltop.png);
+  padding: 1.03em 2em;
+}
+body .main .castleScene .level .castleWall {
+  background-image: url(../images/brick.png);
+  padding: 1.03em 65px;
+}
+body .main .castleScene .level .door {
+  background-image: url(../images/door.png);
+  padding: 2em 1.03em;
+}
+body .main .castleScene .level .brick {
+  background-image: url(../images/brick.png);
+  padding: 2em 56.5px;
+}
+body .main .castleScene .level .blank2 {
+  padding: 2em 4em;
+}
+body .main .castleScene .level .blank {
+  padding: 2em;
+}
+body .main .castleScene .level .bush {
+  background-image: url(../images/bush.png);
+  padding: 1em 3.1em;
+  align-self: flex-end;
+}
+body .main .castleScene .castleWall2 {
+  background-image: url(../images/brick.png);
+  padding: 1.03em 129px;
+}
+body .main .castleScene .floor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body .main .castleScene .floor .floorLeft {
+  background-image: url(../images/block07.png);
+  padding: 1.03em;
+}
+body .main .castleScene .floor .floorCenter {
+  background-image: url(../images/block05.png);
+  padding: 1.03em 20.7em;
+}
+body .main .castleScene .floor .floorRight {
+  background-image: url(../images/block06.png);
+  padding: 1.03em;
 }
