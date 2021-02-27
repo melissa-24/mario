@@ -10,6 +10,12 @@
   justify-content: center;
   align-items: center;
 }
+.altflexcolumn {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -22,6 +28,7 @@ body header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 95%;
 }
 body header nav {
   display: flex;
@@ -30,7 +37,7 @@ body header nav {
   align-items: center;
   background-image: url(../images/block03.png);
   margin: 1em;
-  width: 95%;
+  width: 24.8em;
 }
 body header nav a {
   background-image: url(../images/brick.png);
@@ -39,6 +46,7 @@ body header nav a {
   color: white;
   text-decoration: none;
   padding: 5px;
+  margin: 0 1em;
 }
 body .main {
   display: flex;
@@ -116,4 +124,66 @@ body .main .castleScene .floor .floorCenter {
 body .main .castleScene .floor .floorRight {
   background-image: url(../images/block06.png);
   padding: 1.03em;
+}
+body .main .scene02 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+body .main .scene02 .ground {
+  background-image: url(../images/block01.png);
+  padding: 1.03em 24.7em;
+}
+body .main .scene02 .level01 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body .main .scene02 .level01 .block01 {
+  background-image: url(../images/block02.png);
+  padding: 1.03em 6.2em;
+}
+body .main .scene02 .level01 .blank01 {
+  padding: 1.03em 3em;
+}
+body .main .scene02 .level01 .mario {
+  background-image: url(../images/mario.png);
+  padding: 1.03em 0.8em;
+}
+body .main .scene02 .level01 .pipe {
+  background-image: url(../images/pipe.png);
+  padding: 1.03em 1.9em;
+}
+body .main .scene02 .level01 .blank02 {
+  padding: 1.03em 6.7em;
+}
+body .main .scene02 .level01 .block02 {
+  background-image: url(../images/block02.png);
+  padding: 1.03em 3.1em;
+}
+body .main .scene02 .level02 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body .main .scene02 .level02 .block01 {
+  background-image: url(../images/block02.png);
+  padding: 1.03em 5.1em;
+}
+body .main .scene02 .level02 .blank01 {
+  padding: 1.03em 7.9em;
+}
+body .main .scene02 .level02 .pipe {
+  background-image: url(../images/pipe.png);
+  padding: 1.03em 1.9em;
+}
+body .main .scene02 .level02 .blank02 {
+  padding: 1.03em 7.8em;
+}
+body .main .scene02 .level02 .block02 {
+  background-image: url(../images/block02.png);
+  padding: 1.03em 2em;
 }
