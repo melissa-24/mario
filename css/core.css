@@ -130,6 +130,8 @@ body .main .scene02 {
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
+  border: 5px double seagreen;
+  padding: 1em 0 0 0;
 }
 body .main .scene02 .ground {
   background-image: url(../images/block01.png);
@@ -186,4 +188,104 @@ body .main .scene02 .level02 .blank02 {
 body .main .scene02 .level02 .block02 {
   background-image: url(../images/block02.png);
   padding: 1.03em 2em;
+}
+body .main .scene02 .level03 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body .main .scene02 .level03 .block01 {
+  background-image: url(../images/block02.png);
+  padding: 1.03em 4.1em;
+}
+body .main .scene02 .level03 .blank01 {
+  padding: 1.03em 8.88em;
+}
+body .main .scene02 .level03 .pipe {
+  background-image: url(../images/pipe.png);
+  padding: 1.03em 1.9em;
+}
+body .main .scene02 .level03 .blank02 {
+  padding: 1.03em 8.75em;
+}
+body .main .scene02 .level03 .block02 {
+  background-image: url(../images/block02.png);
+  padding: 1.03em 1.03em;
+}
+body .main .scene02 .level04 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body .main .scene02 .level04 .block01 {
+  background-image: url(../images/block02.png);
+  padding: 1.03em 3.1em;
+}
+body .main .scene02 .level04 .blank01 {
+  padding: 1.03em 9.88em;
+}
+body .main .scene02 .level04 .pipe {
+  background-image: url(../images/pipe.png);
+  padding: 1.03em 1.9em;
+}
+body .main .scene02 .level04 .blank02 {
+  padding: 1.03em 8.75em;
+}
+body .main .scene02 .level04 .animal {
+  background-image: url(../images/animal1.png);
+  padding: 1.03em 1.03em;
+}
+body .main .scene02 .level05 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body .main .scene02 .level05 .block01 {
+  background-image: url(../images/block02.png);
+  padding: 1.03em 2.1em;
+}
+body .main .scene02 .level05 .blank01 {
+  padding: 1.03em 10.7em;
+}
+body .main .scene02 .level05 .pipetop {
+  background-image: url(../images/pipetop.png);
+  padding: 1.03em 2.1em;
+}
+body .main .scene02 .level05 .blank02 {
+  padding: 1.03em 9.7em;
+}
+body .main .scene02 .level06 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body .main .scene02 .level06 .blank01 {
+  padding: 1.03em 13.3em;
+}
+body .main .scene02 .level06 .plant {
+  background-image: url(../images/plant.png);
+  padding: 1.4em 1.03em;
+}
+body .main .scene02 .level06 .blank02 {
+  padding: 1.4em 10.3em;
+}
+body .main .scene02 .level07 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body .main .scene02 .level07 .blank01 {
+  padding: 1.55em 9.15em;
+}
+body .main .scene02 .level07 .cloud {
+  background-image: url(../images/cloud.png);
+  padding: 1.55em 2.13em;
+}
+body .main .scene02 .level07 .blank02 {
+  padding: 1.55em 5.6em;
 }
